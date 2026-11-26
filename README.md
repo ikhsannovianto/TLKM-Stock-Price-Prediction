@@ -13,6 +13,12 @@ Both models performed comparably. GRU-AM reached MAE Rp51.59 and MAPE 1.78%,
 while GRU reached RMSE Rp68.97 and R-squared 0.965. Diebold-Mariano, Wilcoxon,
 and block bootstrap tests showed no statistically significant difference.
 
+### Actual vs Predicted Closing Price
+The predictions of both models closely follow the actual TLKM closing price on
+the 271-day test set.
+
+![Actual vs Predicted](Result.png)
+
 ## Author
 Ikhsan Ari Novianto · [LinkedIn](https://linkedin.com/in/ikhsanarinovianto)
 
